@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Renaldi Mohamad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asets/css/contact.css">
+</head>
+
+<body>
+
+    <nav class="navigation-profile">
+        <div class="content-navigation">
+            <ul class="ul-navigation">
+                <li>
+                    <a href="https://www.instagram.com/dumbways.id?igsh=MTVweDh0aTNleDN0ag==">
+                        <img src="./asets/images/download.png" class="img-dumbways" />
+                    </a>
+                </li>
+                <a href="home.html" class="nav-link collapse" style="color: black; text-decoration: none;">Home</a>
+                <a href="myproject.html" style="color: black; text-decoration: none;" class="nav-link collapse">My
+                    Project</a>
+            </ul>
+            <div style="display: flex; width: 100%; justify-content: end;">
+                <a href="contact.html" class="btn-content collapse">Contact me</a>
+
+                <i class="fa-solid fa-bars fa-2x" style="cursor: pointer;" id="humberger-me"
+                    onclick="openHumberger()"></i>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="humberger-navbar" id="humbergerNavContainer">
+        <a href="home.html" class="humberger-link">Home</a>
+        <a href="myproject.html" class="humberger-link">My
+            Project</a>
+        <a href="myproject.html" class="humberger-link">Contact Me</a>
+
+    </div>
+
+    </div>
+
+    <div class="container">
+        <H1>GET IN TOUCH</H1>
+
+        <label class="label-contact">Name</label>
+        <input type="text" class="input-content" id="inputName" />
+        <label class="label-contact">Email</label>
+        <input type="text" class="input-content" id="inputEmail" />
+        <label class="label-contact">Phone Number</label>
+        <input type="text" class="input-content" id="inputPhoneNumber" />
+        <label class="label-contact">Subject</label>
+        <select type="text" class="input-content" id="inputSubject">
+            <option></option>
+            <option>Frontend</option>
+            <option>Beckend Devoloper</option>
+            <option>Fullstack Devoloper</option>
+        </select>
+        <label class="label-contact">Your Message</label>
+        <textarea style="margin-bottom: 20px;" class="input-content" id="inputMessage"></textarea>
+        <div style="width: 320px; display: flex; justify-content: end;">
+            <input type="button" value="Submit" class="submit-contact" onclick="submitData()" />
+
+        </div>
+
+    </div>
+
+    <script src="./asets/js/main.js"></script>
+    <script src="./asets/js/index.js"></script>
+
+
+</body>
+
+</html>
